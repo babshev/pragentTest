@@ -10,6 +10,13 @@ namespace TestApp
     {
         static void Main(string[] args)
         {
+            int i = 0;
+            for(;i<0;i++)
+            {
+                Console.Write(i);
+                ;
+            }
+
         }
     }
 }
