@@ -22,9 +22,10 @@ jobs:
     steps:
       - uses: coderabbitai/ai-pr-reviewer@latest
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          TOKEN: ${{ secrets.TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         with:
-          debug: false
-          review_simple_changes: false
+          debug: true
+          review_simple_changes: true
           review_comment_lgtm: false
+          openai_heavy_model: gpt-3.5-turbo
