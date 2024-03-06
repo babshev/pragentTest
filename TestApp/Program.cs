@@ -14,7 +14,7 @@ namespace TestApp
             for(;i<0;i++)
             {
                 Console.Write(i);
-                ;
+ 
             }
 
         }
