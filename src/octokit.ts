@@ -4,7 +4,7 @@ import {retry} from '@octokit/plugin-retry'
 import {throttling} from '@octokit/plugin-throttling'
 
 const token = getInput('token') || process.env.GITHUB_TOKEN
-
+var str="hello"
 const RetryAndThrottlingOctokit = Octokit.plugin(throttling, retry)
 
 export const octokit = new RetryAndThrottlingOctokit({
