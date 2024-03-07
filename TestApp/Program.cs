@@ -14,7 +14,11 @@ namespace TestApp
             int j = 10;
             int k = j / i;
             Console.Write(k);
-            ;
+            for (; i < 100; i--)
+            {
+
+            }
+            
         }
     }
 }
