@@ -10,6 +10,15 @@ namespace TestApp
     {
         static void Main(string[] args)
         {
+            int i = 0;
+            int j = 10;
+            int k = j / i;
+            Console.Write(k);
+            for (; i < 100; i--)
+            {
+
+            }
+            
         }
     }
 }
